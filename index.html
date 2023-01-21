@@ -4,36 +4,42 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Верстка «Delote»</title>
+	<title>Верстка «DELOTE_BEAUTY»</title>
 </head>
 
 <body>
 	<div class="rootpage">
-		<h1>Верстка «Delote»</h1>
+		<h1>Верстка «DELOTE_BEAUTY»</h1>
 		<div class="rootpage__info">
-			Опис проєкту
+			Описание проэкта
 		</div>
-		<h2>Готові сторінки:</h2>
+		<h2>Готовые страницы</h2>
 		<ol class="rootpage__list">
-			<li><a target="_blank" href="home.html">Головна</a></li>
+			<li><a target="_blank" href="home.html">Главная</a></li>
 		</ol>
 		<ol class="rootpage__list">
 			<li><a target="_blank" href="masters.html">Мастера</a></li>
+		</ol>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="price.html">Косметика</a></li>
+		</ol>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="contacts.html">Контакты</a></li>
 		</ol>
 		<!-- <h2>Попапи:</h2>
 			<ol class="rootpage__list">
 				<li><a target="_blank" href="home.html#"></a></li>
 			</ol> -->
 		<div class="rootpage__tnx">
-			<h2>Дякую за замовлення!</h2>
-			<p>Буду радий (да) гарному відгуку.</p>
-			<p>Звертайтесь ще!</p>
+			<h2>Спасибо за просмотр</h2>
+			<!-- <p>Буду рада гарному відгуку.</p>
+				<p>Звертайтесь ще!</p> -->
 		</div>
 		<div class="rootpage__contacts">
-			<h2>Мої контакти:</h2>
-			<p>Пошта: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
-			<p>Телефон: <a href="tel:8800800800">8 800 800 800</a></p>
-			<p>Соц. мережі: <a href="">посилання</a></p>
+			<!-- <h2>Мої контакти:</h2>
+				<p>Пошта: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
+				<p>Телефон: <a href="tel:8800800800">8 800 800 800</a></p>
+				<p>Соц. мережі: <a href="">посилання</a></p> -->
 		</div>
 	</div>
 </body>
@@ -101,6 +107,8 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		height: 100vh;
+		background: url('../img/master/01.jpg') center right / cover no-repeat;
 	}
 
 	@media (max-width: 767px) {
@@ -110,9 +118,11 @@
 	}
 
 	h1 {
-		color: #ebe691;
+		color: #242421;
 		font-size: 2.5rem;
 		margin: 0px 0px 1.25rem 0px;
+		background-color: #aaa768;
+		padding: 5px;
 	}
 
 	@media (max-width: 767px) {
@@ -165,7 +175,7 @@
 	}
 
 	.rootpage__contacts {
-		background: #32b5a4;
+		/* background: #b5329f; */
 
 	}
 
@@ -174,7 +184,7 @@
 	}
 
 	.rootpage__tnx {
-		background: #c22d63;
+		/* background: #eb85aa; */
 		margin: 0px 0px 1rem 0px;
 	}
 </style>
